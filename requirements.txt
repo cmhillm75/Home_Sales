@@ -1,0 +1,7 @@
+findspark
+pyspark
+pyarrow
+fastparquet
+pandas
+jupyter
+requests
