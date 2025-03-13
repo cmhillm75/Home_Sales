@@ -68,13 +68,13 @@ deep-learning-challenge/
 * Build the Docker image:
 
 ```bash
-  docker build -t home-sales .
+docker build -t home-sales .
 ```
 
 * Run the Docker Container with the necessary ports exposed for Jupyter Notebook (8888) and Spark UI (4041)
 
 ```bash
-    docker run -p 8888:8888 -p 4041:4041 home-sales
+docker run -p 8888:8888 -p 4041:4041 home-sales
 ```
 
 * Once the container is running, you can access the url through Docker Desktop by clicking on the Name column. The log will be present in the page that follows and a hyperlink <http://127.0.0.1:8888/tree?token=f92c185f0aa5fab4ebe1645afdc0798a35642bcb05b43451> will be present to open Jupyter Notebook. From there upload the `Home_Sales.ipynb`.
